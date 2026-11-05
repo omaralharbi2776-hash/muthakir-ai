@@ -396,3 +396,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Muthakir AI: secrets, environments, and generated local data
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+faiss_index/
+study_notes.txt
